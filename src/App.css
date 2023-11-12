@@ -8,3 +8,85 @@
     font-family: author;
     src: url('./assets/NeonTech.ttf');
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background: #ffe652;
+}
+#quoteContainer{
+    position: absolute;
+    width: 95%;
+    max-width: 450px;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    padding: 20px 25px;
+    background: #009dae;
+    color: #ffe652;
+}
+#quote{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    word-spacing: 3px;
+    line-height: 1.3em;
+}
+#quote::before{
+    content: '“';
+    font-size: 2rem;
+    opacity: .8;
+    color: white;
+}
+#quote::after{
+    content: '”';
+    font-size: 2rem;
+    opacity: .8;
+    color: white;
+}
+#quoteContainer h1{
+    font-family: header;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    text-shadow: 5px 5px 7px #ffe652, -5px 5px 7px #ffe652;
+}
+#author{
+    text-align: end;
+    font-size: 1.5em;
+    font-family: author;
+    color: white;
+}
+#author::before{
+    content: '―';
+}
+#quoteContainer button{
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+    height: 40px;
+    background: #ffe652;
+    color: #009dae;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    border: none;
+    outline: none!important;
+    cursor: pointer;
+    border-radius: 30px;
+    box-shadow:inset 5px 5px 7px #9e8e32;
+}
+#quoteContainer h5{
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    text-align: center;
+    width: 100%;
+}
+#quoteContainer h5 a{
+    color: white;
+    font-weight: bold;
+}
