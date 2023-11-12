@@ -2,9 +2,9 @@
 /* Gold/yellow color: #FFE652; */
 @font-face {
     font-family: header;
-    src: url('lastfontwastingonyou.ttf');
+    src: url('./assets/lastfontwastingonyou.ttf');
 }
 @font-face {
     font-family: author;
-    src: url('NeonTech.ttf');
+    src: url('./assets/NeonTech.ttf');
 }
