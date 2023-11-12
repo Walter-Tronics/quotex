@@ -51,6 +51,7 @@ body{
 }
 #quoteContainer h1{
     font-family: header;
+    font-size: 2rem;
     text-align: center;
     color: white;
     font-weight: bolder;
