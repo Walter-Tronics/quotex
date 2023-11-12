@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <section>
+      <section id="quoteContainer">
         <h1>Random Quote</h1>
 
         {/* Quote content */}
