@@ -7,6 +7,10 @@ import axios from 'axios'
 // This custom hook takes an array of quotes and returns a random quote
 // It keeps track of the used quotes in a set and avoids repeating them
 // If all the quotes are used, it returns null
+function useRandomQuote(quotes) {
+
+  
+}
 
 
 function App() {
