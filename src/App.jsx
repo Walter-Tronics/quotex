@@ -46,7 +46,9 @@ function App() {
 
   // Initialize a state to store the current quote
   const [currentQuote, setCurrentQuote] = useState(null);
-  
+
+  // Use the custom hook to get a random quote
+  const getRandomQuote = useRandomQuote(quotes);
 
   
 
