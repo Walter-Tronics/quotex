@@ -32,7 +32,7 @@ function useRandomQuote(quotes) {
     }
 
     // Add the index to the set
-    setUsed((prev) => new Set(prev).add(index));
+    setUsed(prev  => new Set(prev).add(index));
 
     // Return the quote at the index
     return quotes[index];
