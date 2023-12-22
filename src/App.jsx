@@ -15,6 +15,11 @@ function useRandomQuote(quotes) {
   function getRandomIndex(array) {
     return Math.floor(Math.random() * array.length);
   }
+
+  // Return a function that returns a random quote
+  return function () {
+    
+  }
 }
 
 
