@@ -72,14 +72,20 @@ function App() {
   }, []);
 
 
+  //function to get  a random quote
+  function handleGetQuote(){
+     // Get a random quote from the quotes array
+     const quote = getRandomQuote();
+
+     // Set the current quote state
+     setCurrentQuote(quote);
+     console.log(quote);
+  }
+
+
   // Update the current quote state when the quotes state changes
   useEffect(() => {
-    // Get a random quote from the quotes array
-    const quote = getRandomQuote();
-
-    // Set the current quote state
-    // setCurrentQuote(quote);
-    console.log(quote);
+    handleGetQuote();
   }, [quotes]);
   
 
@@ -90,16 +96,16 @@ function App() {
 
         {/* Quote content */}
         <blockquote id='quote'>
-
+          
         </blockquote>
 
         {/* Author of the quote */}
         <div id='author'>
-
+          
         </div>
 
         {/* Query for quote */}
-        <button>Get Quote</button>
+        <button onClick={handleGetQuote}>Get Quote</button>
 
         {/* Acknowledgement  */}
         <h5>Quotes acquired from <a href="https://www.goodreads.com/quotes/tag/inspirational">Goodreads</a></h5>
