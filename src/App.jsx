@@ -60,6 +60,7 @@ function App() {
 
       // Set the quotes state
       setQuotes(data);
+      console.log(data);
   }
 
   
@@ -69,6 +70,17 @@ function App() {
     //call the fetch quotes function
     fetchQuotes();
   }, []);
+
+
+  // Update the current quote state when the quotes state changes
+  useEffect(() => {
+    // Get a random quote from the quotes array
+    const quote = getRandomQuote();
+
+    // Set the current quote state
+    // setCurrentQuote(quote);
+    console.log(quote);
+  }, [quotes]);
   
 
   return (
