@@ -50,6 +50,12 @@ function App() {
   // Use the custom hook to get a random quote
   const getRandomQuote = useRandomQuote(quotes);
 
+
+
+  // Fetch the quotes from  the quotex API once when the component mounts
+  async function fetchQuotes() {
+    
+  }
   
 
   return (
