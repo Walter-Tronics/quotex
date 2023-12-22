@@ -52,7 +52,7 @@ function App() {
 
 
 
-  // Fetch the quotes from  the quotex API once when the component mounts
+  //Function to fetch the quotes
   async function fetchQuotes() {
     //fetch quotes from quotex API
     const response = await fetch("https://jsonplaceholder.typicode.com/posts");
@@ -60,6 +60,11 @@ function App() {
 
       console.log(data);
   }
+
+  
+
+  // Fetch the quotes from  the quotex API once when the component mounts
+  
   
 
   return (
