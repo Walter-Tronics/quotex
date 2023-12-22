@@ -8,7 +8,8 @@ import axios from 'axios'
 // It keeps track of the used quotes in a set and avoids repeating them
 // If all the quotes are used, it returns null
 function useRandomQuote(quotes) {
-
+  // Initialize a state to store the used quotes
+  const [used, setUsed] = useState(new Set());
   
 }
 
