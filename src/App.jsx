@@ -41,7 +41,8 @@ function useRandomQuote(quotes) {
 
 
 function App() {
-
+  // Initialize a state to store the quotes
+  const [quotes, setQuotes] = useState([]);
   
 
   
