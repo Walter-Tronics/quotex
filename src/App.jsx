@@ -58,7 +58,8 @@ function App() {
     const response = await fetch("https://quotex-api.onrender.com/quotes");
       const data = await response.json();
 
-      console.log(data);
+      // Set the quotes state
+      setQuotes(data);
   }
 
   
