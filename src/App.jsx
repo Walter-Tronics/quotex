@@ -10,7 +10,11 @@ import axios from 'axios'
 function useRandomQuote(quotes) {
   // Initialize a state to store the used quotes
   const [used, setUsed] = useState(new Set());
-  
+
+  // Define a helper function to get a random index from the array
+  function getRandomIndex(array) {
+    return Math.floor(Math.random() * array.length);
+  }
 }
 
 
