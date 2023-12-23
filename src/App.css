@@ -1,5 +1,8 @@
 /* Teal color: #009DAE; */
 /* Gold/yellow color: #FFE652; */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Poppins:wght@300;500&display=swap');
+
 @font-face {
     font-family: header;
     src: url('./assets/lastfontwastingonyou.ttf');
@@ -32,10 +35,11 @@ body{
 #quote{
     font-size: 1.3rem;
     font-weight: bold;
-    margin-top: 20px;
+    margin-block: 20px 5px;
     text-align: center;
     word-spacing: 3px;
     line-height: 1.3em;
+    font-family: 'Nunito', sans-serif;
 }
 #quote::before{
     content: '“';
@@ -80,6 +84,7 @@ body{
     cursor: pointer;
     border-radius: 30px;
     box-shadow:inset 5px 5px 7px #9e8e32;
+    font-family: 'Poppins', sans-serif;
 }
 #quoteContainer h5{
     position: absolute;
@@ -87,6 +92,9 @@ body{
     left: 50%;
     text-align: center;
     width: 100%;
+    font-size: .7rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
 }
 #quoteContainer h5 a{
     color: white;
