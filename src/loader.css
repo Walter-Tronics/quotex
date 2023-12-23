@@ -8,8 +8,8 @@
 /* stroke: #2F3545;
 background: #F5F9FF; */
 :root {
-	--bg: #e3e4e8;
-	--fg: #17181c;
+	--bg: #FFE652;
+	--fg: #009DAE;
 	--dur: 8s;
 }
 
@@ -22,7 +22,7 @@ background: #F5F9FF; */
     padding: 1rem;
     overflow: hidden;  
     color: var(--fg);
-	font: bold 1em/1.5 "Comfortaa", sans-serif;
+	font: bold 1.5em/1.5 "Comfortaa", sans-serif;
 	display: grid;
 	place-items: center;
 	align-content: center;
@@ -121,8 +121,8 @@ background: #F5F9FF; */
 /* Dark theme */
 @media (prefers-color-scheme: dark) {
 	:root {
-		--bg: #17181c;
-		--fg: #e3e4e8;
+		--bg: #FFE652;
+		--fg: #009DAE;
 	}
 }
 /* Animations */
