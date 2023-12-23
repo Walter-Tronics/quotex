@@ -103,12 +103,12 @@ function App() {
             <>
               {/* Quote content */}
               <blockquote id='quote'>
-                
+                {currentQuote.quote}
               </blockquote>
 
               {/* Author of the quote */}
               <div id='author'>
-                
+                {currentQuote.author}
               </div>
 
               {/* Query for quote */}
