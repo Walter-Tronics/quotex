@@ -22,7 +22,7 @@ background: #F5F9FF; */
     padding: 1rem;
     overflow: hidden;  
     color: var(--fg);
-	font: bold 1.5em/1.5 "Comfortaa", sans-serif;
+	font: bold 1em/1.5 "Comfortaa", sans-serif;
 	display: grid;
 	place-items: center;
 	align-content: center;
