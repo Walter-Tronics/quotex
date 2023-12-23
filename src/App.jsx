@@ -124,7 +124,7 @@ function App() {
         }
       </section>
     </>
-  ) : 'Loading...'
+  ) : <Loader />
 }
 
 export default App
