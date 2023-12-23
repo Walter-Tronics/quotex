@@ -55,8 +55,8 @@ function App() {
   //Function to fetch the quotes
   async function fetchQuotes() {
     //fetch quotes from quotex API
-    const response = await fetch("https://quotex-api.onrender.com/quotes");
-      const data = await response.json();
+    const response = await axios.get("https://quotex-api.onrender.com/quotes");
+      const data = response.data;
 
       // Set the quotes state
       setQuotes(data);
