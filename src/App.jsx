@@ -95,34 +95,33 @@ function App() {
 
   return Object.keys(quotes).length > 0 ? (
     <>
-      {
-        //If  any quote still exits, display a quote
-        currentQuote ? (
+      <section id="quoteContainer">
+        <h1>Random Quote</h1>
+        {
+          //If  any quote still exits, display a quote
+          currentQuote ? (
+            <>
+              {/* Quote content */}
+              <blockquote id='quote'>
+                
+              </blockquote>
 
-          <section id="quoteContainer">
-            <h1>Random Quote</h1>
+              {/* Author of the quote */}
+              <div id='author'>
+                
+              </div>
 
-            {/* Quote content */}
-            <blockquote id='quote'>
-              
-            </blockquote>
+              {/* Query for quote */}
+              <button onClick={handleGetQuote}>Get Quote</button>
 
-            {/* Author of the quote */}
-            <div id='author'>
-              
-            </div>
-
-            {/* Query for quote */}
-            <button onClick={handleGetQuote}>Get Quote</button>
-
-            {/* Acknowledgement  */}
-            <h5>Quotes acquired from <a href="https://www.goodreads.com/quotes/tag/inspirational">Goodreads</a></h5>
-          </section>
-        
-        ) : (
-          <p>No more quotes available</p>
-        )
-      }
+              {/* Acknowledgement  */}
+              <h5>Quotes acquired from <a href="https://www.goodreads.com/quotes/tag/inspirational">Goodreads</a></h5>
+            </>
+          ) : (
+            <p id='quote'>No more quotes available</p>
+          )
+        }
+      </section>
     </>
   ) : 'Loading...'
 }
