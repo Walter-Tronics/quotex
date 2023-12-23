@@ -86,11 +86,8 @@ function App() {
 
   // Update the current quote state when the quotes state changes
   useEffect(() => {
-
     //get a  random quote when the component unmounts
-    return () => {
-      handleGetQuote();
-    }
+    handleGetQuote();
   }, [quotes]);
   
 
