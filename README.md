@@ -1,6 +1,9 @@
 # Quotex
 Cool stylish random quote generator made with ReactJs. It queries an API that is custom built
 
+Follow here to view the backend => [quotex_backend](https://github.com/Walter-Tronics/quotex_backend)
+
+
 ### Languages:
 * React.js
 * API
