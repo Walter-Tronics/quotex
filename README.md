@@ -1,8 +1,13 @@
-# React + Vite
+# Quotex
+Cool stylish random quote generator made with ReactJs. It queries an API that is custom built
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Languages:
+* React.js
+* API
 
-Currently, two official plugins are available:
+### Live view:
+<h3>https://walt-quotex.netlify.app</h3>
+<br>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![image](https://github.com/Walter-Tronics/quotex/assets/81018331/9802a17a-1cf5-4513-9401-8f5ef49614b2)
+
